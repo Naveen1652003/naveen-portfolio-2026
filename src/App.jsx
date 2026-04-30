@@ -37,7 +37,7 @@ function App() {
           <div className="hero-text">
             <span className="badge">Full Stack Developer</span>
             <h1>Naveen <span className="text-accent">Kumar A</span></h1>
-            <p className="hero-p">Full Stack Developer with 1 year of experience in building and maintaining web applications using React, JavaScript, and Node.js. Skilled in frontend development, API integration, database management, and cloud deployment.</p>
+            <p className="hero-p">Results-driven Full Stack Developer with 1+ year of professional experience designing, building, and deploying scalable web applications using React, Node.js, TypeScript, NestJS, and MySQL.</p>
             <div className="hero-btns">
               <a href="#projects" className="btn btn-primary">View Projects</a>
               <a href="#experience" className="btn btn-outline">My Journey</a>
@@ -68,7 +68,7 @@ function App() {
           </div>
           <div className="about-content">
             <div className="about-text">
-              <p>Passionate about writing clean, maintainable code and continuously improving technical skills. I specialize in building responsive web applications and integrating them with robust backend services.</p>
+              <p>Results-driven Full Stack Developer with 1+ year of professional experience designing, building, and deploying scalable web applications using React, Node.js, TypeScript, NestJS, and MySQL. Hands-on expertise in REST API development, AWS cloud deployment (S3, Lambda), and database optimisation. Proven ability to deliver clean, maintainable code in agile team environments, with a track record of reducing query response times, improving UI performance, and shipping production-ready features.</p>
               <div className="stats-grid">
                 <div className="stat-card glass">
                   <div className="stat-num">1</div>
@@ -97,23 +97,25 @@ function App() {
           </div>
           <div className="timeline">
             <div className="timeline-item glass">
-              <div className="time-period">April 2025 – Present</div>
+              <div className="time-period">April 2025 – February 2026</div>
               <h3>Full Stack Developer</h3>
               <h4 className="company">Jothi Software Private Limited, Chennai</h4>
               <ul>
-                <li>Developed and maintained responsive web applications using React, HTML, CSS, and JavaScript.</li>
-                <li>Integrated frontend components with backend services using Node.js.</li>
-                <li>Managed application data using MySQL, performing CRUD operations and optimizing queries.</li>
-                <li>Deployed, tested, and monitored applications on AWS for high availability.</li>
-                <li>Collaborated with senior developers to debug and resolve complex issues.</li>
-                <li>Used Git and Sourcetree for robust version control and team collaboration.</li>
+                <li>Designed and delivered 5+ responsive web application modules using React, HTML5, CSS3, and JavaScript, improving cross-browser UI consistency and reducing reported frontend bugs by 40%.</li>
+                <li>Built and integrated RESTful APIs connecting React frontend to Node.js backend services, cutting average API response time by approximately 25%.</li>
+                <li>Managed and optimised MySQL database operations (CRUD, indexing, joins) for datasets exceeding 10,000 records, achieving a 30% reduction in average query execution time.</li>
+                <li>Deployed, configured, and monitored production applications on AWS (S3, Lambda), maintaining 99%+ uptime across all hosted services.</li>
+                <li>Collaborated in daily Agile standups and sprint reviews with cross-functional teams of 6+, identifying and resolving 10+ production defects within SLA timelines.</li>
+                <li>Reviewed and merged pull requests in Git/Sourcetree; enforced coding standards that reduced code review iteration cycles by 35%.</li>
               </ul>
             </div>
             <div className="timeline-item glass">
-              <div className="time-period">Jan 2025 – Mar 2025</div>
+              <div className="time-period">January 2025 – March 2025</div>
               <h3>Software Development Intern</h3>
-              <h4 className="company">KY Technologies</h4>
-              <p>Gained practical experience in real-time projects and team collaboration, focusing on the software development lifecycle and foundational web technologies.</p>
+              <ul>
+                <li>Contributed to 2 real-time software development projects, delivering frontend components using React and JavaScript under senior developer mentorship.</li>
+                <li>Participated in agile sprint planning, daily standups, and code review sessions, strengthening collaborative development practices.</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -136,7 +138,7 @@ function App() {
             <div className="skill-category glass">
               <h3>Backend & DB</h3>
               <div className="skill-tags">
-                <span>Node.js</span> <span>TypeScript</span> <span>SQL / MySQL</span>
+                <span>Node.js</span> <span>TypeScript</span> <span>NestJS</span> <span>MySQL</span>
               </div>
             </div>
             <div className="skill-category glass">
@@ -167,14 +169,13 @@ function App() {
               <div className="project-info">
                 <div className="project-header">
                   <h3>Books Stock Inventory Management System</h3>
-                  <span className="project-link">AWS Deployed</span>
                 </div>
-                <p>Built a robust web-based system for tracking stock levels, restocking alerts, and generating detailed reports.</p>
+                <p>Architected and built a full-stack inventory management web application handling 2,000+ book records with real-time stock tracking, low-stock alerts, and automated reporting dashboards.</p>
                 <div className="project-details">
                   <ul>
-                    <li>Implemented core features for real-time inventory tracking and restocking logic.</li>
-                    <li>Optimized database queries for 30% faster data retrieval.</li>
-                    <li>Integrated full CRUD operations for book records and supplier management.</li>
+                    <li>Implemented optimised MySQL queries with indexing strategies, reducing data retrieval time by ~35% compared to the initial schema.</li>
+                    <li>Integrated Shopify API for product catalogue synchronisation and deployed the application on AWS S3 and Lambda for cost-effective, scalable access.</li>
+                    <li>Delivered end-to-end feature development — from database schema design to React UI — within a 4-week development cycle.</li>
                   </ul>
                 </div>
                 <div className="tech-tags">
@@ -227,8 +228,8 @@ function App() {
             <div className="underline"></div>
           </div>
           <div className="cert-list">
-            <div className="cert-item glass">Web Development</div>
-            <div className="cert-item glass">Cloud Computing</div>
+            <div className="cert-item glass">Web Development – Qspider | 2024</div>
+            <div className="cert-item glass">Cloud Computing – Wipro | 2023</div>
           </div>
         </div>
       </section>
